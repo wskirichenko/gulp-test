@@ -1,0 +1,27 @@
+{
+  "name": "gulp-test",
+  "version": "1.0.0",
+  "description": "Test projact for gulp and node server",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wskirichenko/gulp-test.git"
+  },
+  "keywords": [
+    "gulp",
+    "node",
+    "start"
+  ],
+  "author": "WS_GAK",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wskirichenko/gulp-test/issues"
+  },
+  "homepage": "https://github.com/wskirichenko/gulp-test#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
