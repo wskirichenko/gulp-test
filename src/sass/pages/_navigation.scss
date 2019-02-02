@@ -1,0 +1,59 @@
+.navigation {
+	width: 100%;
+	height: $navHeight;
+	background-color: rgba(242, 250, 250, 0.9);
+	box-shadow: 0 1rem 6rem rgba(0,0,0,0.1);
+	font-size: 2rem;
+	display: flex;
+	justify-content: space-around;
+	z-index: 20;
+
+	&__logo {
+		width: 19.3rem;
+		height: 5.2rem;
+		margin-top: 0.7rem;
+		background-image: url(../../img/logo-ws-blue.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+	&__nav {
+		display: flex;
+		align-items: center;
+	}
+
+	&__list {
+		display: flex;
+		list-style: none;
+	}
+
+	&__items {
+		padding: 1.5rem 3rem;
+		a {
+			color: rgb(43, 156, 179);
+		}
+		a:hover {
+			color: rgb(0, 0, 84);
+			cursor: pointer;
+		}
+		a:active {
+			color: rgb(0, 0, 84);
+		}
+	}
+}
+.fixed-nav{ 
+	z-index: 1000; 
+	position: fixed; 
+	left: 0; 
+	top: 0; 
+	// width: 101%;
+} 
+.navigation-dummy {
+	width: 100%;
+	height: $navHeight;
+	position: relative;
+	display: none;
+}
+.show-dummy {
+	display: block;
+}

@@ -1,0 +1,16 @@
+.first {
+	width: $mainWidth;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+	background-image: url(../../img/bg.png);
+
+	&__text {
+		font-size: 2rem;
+		text-align: center
+	}
+}
